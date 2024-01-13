@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: rgb(254, 199, 135);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container {
+  background: rgb(154, 190, 218);
+  padding: 20px 0;
+  border-radius: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+}
+
+input {
+  background-color: rgba(201, 227, 237, 0.999);
+  border: 1px solid rgb(117, 117, 235);
+  border-radius: 15px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  margin-top: auto;
+  margin-bottom: 5px;
+  list-style: decimal;
+  cursor: pointer;
+}
